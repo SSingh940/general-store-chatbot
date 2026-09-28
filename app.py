@@ -3,7 +3,13 @@ import os
 from google import genai
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #f0f8ff;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # Business context - General Store ki jaankari
 business_info = """
 Tum "Sharma General Store" ke liye customer support chatbot ho.
