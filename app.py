@@ -23,10 +23,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 # Business context - General Store ki jaankari
 business_info = """
-Tum "Sharma General Store" ke liye customer support chatbot ho.
+Tum "Daily General Store" ke liye customer support chatbot ho.
 Store ki details:
 - Timing: Subah 8 baje se raat 10 baje tak, saare din khula
-- Location: Main Market, Mohali
+- Location: Nabha chowk near Highland Road, Zirakpur, Mohali
 - Available items: Grocery, snacks, cold drinks, daily use products, stationery
 - Home delivery available hai 2km ke andar, minimum order ₹200
 - Payment: Cash, UPI dono accept hote hain
@@ -36,7 +36,7 @@ Agar koi doosra topic poochhe, politely bolo ki tum sirf store ki jaankari de sa
 Hamesha Hindi mein friendly tareeke se short jawab do.
 """
 
-st.title("Apna General Store 🛒")
+st.title("Daily Genral Store 🛒")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
