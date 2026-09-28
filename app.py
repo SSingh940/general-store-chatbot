@@ -6,7 +6,7 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 st.markdown("""
     <style>
     .stApp {
-        background-color: #f0f8ff;
+        background-color: #f0f8f0;
     }
     </style>
 """, unsafe_allow_html=True)
