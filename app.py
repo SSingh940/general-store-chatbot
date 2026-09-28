@@ -11,6 +11,14 @@ st.markdown("""
     .stApp, .stApp p, .stApp h1, .stApp h2, .stApp h3, .stApp span {
         color: #ffffff !important;
     }
+    [data-testid="stChatInput"] textarea {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
+    [data-testid="stChatInput"] textarea::placeholder {
+        color: #666666 !important;
+        -webkit-text-fill-color: #666666 !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 # Business context - General Store ki jaankari
